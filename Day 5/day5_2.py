@@ -33,11 +33,8 @@ with open("Day 5/input.txt", "r") as f:
        clusterFgrid = []
        lines = lines.strip().split(" ")
        liftCounter = int(lines[1])
-       fromNumber = int(lines[3])
-       toNumber = int(lines[5])
-       fromNumber -= 1
-       toNumber -= 1
-       i = 0
+       fromNumber = int(lines[3]) - 1
+       toNumber = int(lines[5]) - 1
        for i in range(liftCounter):
              pop = grid[fromNumber].pop()
              clusterFgrid.insert(0, pop)
