@@ -10,12 +10,13 @@ def numberOfUniqueLetters(number):
                 print(n+number)
                 break
 
-                
 # Part 1:
 numberOfUniqueLetters(4)
+# -> Your puzzle answer was 1582
 
 # Part 2:
 numberOfUniqueLetters(14)
+# -> Your puzzle answer was 3588
 
             
    
