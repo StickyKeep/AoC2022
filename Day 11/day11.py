@@ -1,4 +1,4 @@
-# Advent of Code 2020, Day 11, Part 1 and 2
+# Advent of Code 2022, Day 11, Part 1 and 2
 # https://adventofcode.com/2022/day/11
 
 # This code is a mess. Maybe I'll clean it up later. Maybe not. 
